@@ -31,18 +31,23 @@ body{
 
 .top-part{
     width: 100%;
-    height: 50px;
+    height: 15%;
+}
+
+.container{
+    width: 100%;
+    height: 85%;
 }
 
 .side-column{
     width: 25%;
-    height: 320px;
+    height: calc(100% - 30px);
     margin: 15px 0;
 }
 
 .central-column{
     width: calc(50% - 30px);
-    height: 320px;
+    height: calc(100% - 30px);
     margin: 15px 15px;
 }
 
